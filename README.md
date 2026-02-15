@@ -1,5 +1,5 @@
 # genmap
-Small, distroless-when-possible container for `genmap`.
+Small compatibility-focused container for `genmap`.
 
 ## how to use
 ```bash
