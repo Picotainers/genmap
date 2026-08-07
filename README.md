@@ -1,6 +1,5 @@
 # genmap
-Minimal container for 
-auto-generated wrapper around the upstream genmap tool.
+Container image for `genmap` built from upstream source.
 
 ## Quick Usage
 ```bash
