@@ -1,12 +1,18 @@
 # genmap
-Small compatibility-focused container for `genmap`.
+Container image for `genmap` built from upstream source.
 
 ## Quick Usage
-
 ```bash
-# Pull the image
-docker pull docker.io/picotainers/genmap:latest
+docker run --rm docker.io/picotainers/genmap:latest --help
+```
 
-# Run the tool
-docker run --rm -v "$(pwd):/data" docker.io/picotainers/genmap:latest --help
+## Usage
+```bash
+# Run in current directory
+docker run --rm -v "$(pwd):/data" -w /data docker.io/picotainers/genmap:latest --help
+```
+
+## Building
+```bash
+docker build -t docker.io/picotainers/genmap:latest .
 ```
